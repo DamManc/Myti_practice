@@ -33,8 +33,9 @@ class Student:
 
 def main():
     damiano = Student('Damiano', 'Mancini', '14-11-1994', '6-6-7-8-4')
-    print(damiano.age())
-    print(damiano.avg_grades())
+    print(f'Student object as python dictionary {damiano.__dict__}')
+    print(f'age: {damiano.age()}')
+    print(f'average grades: {damiano.avg_grades()}')
 
 
 if __name__ == '__main__':
